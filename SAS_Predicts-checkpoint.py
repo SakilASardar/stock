@@ -47,7 +47,7 @@ st.pyplot(plot_graph((15,6), google_data['MA_for_100_days'],google_data,1,google
 
 from sklearn.preprocessing import MinMaxScaler
 
-scaled_data = MinMaxScaler(feature_range=(0,1)).fit_transform(x_test[['Close']])
+scaled_data = MinMaxScaler(feature_range=(0,1)).fit_transform(x_test[[' Close']])
 
 x_data = []
 y_data = []
